@@ -30,22 +30,23 @@ https://world.weniv.co.kr/
 1. 1번 항목
 2. 2번 항목
 3. 3번 항목
-    1. 뎁스1
-        1. 뎁스2
-            1. 뎁스3
-                1. 뎁스4
+   1. 뎁스1
+      1. 뎁스2
+         1. 뎁스3
+            1. 뎁스4
 
--   항목 1
--   항목 2
-    -   뎁스 2
-        -   뎁스 3
-            -   뎁스 4
+- 항목 1
+- 항목 2
+  - 뎁스 2
+    - 뎁스 3
+      - 뎁스 4
 
 아래는 여러 프로그래밍 언어를 사용하여 Markdown 양식으로 만든 코드 블록 예시입니다. 이 예시들은 Python 이외의 다양한 언어를 포함하고 있으며, 각 언어에 대해 간단한 코드 스니펫을 제공합니다.
 
 코드 블럭 테스트
 
 Python 코드:
+
 ```python
 for i in range(10):
     print('Hello, Python!')
@@ -56,37 +57,41 @@ def hello(one, two, three):
 ```
 
 HTML 코드:
+
 ```html
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Hello, HTML!</title>
-</head>
-<body>
+  </head>
+  <body>
     <p>Hello, World!</p>
-</body>
+  </body>
 </html>
 ```
 
 CSS 코드:
+
 ```css
 body {
-    background-color: lightblue;
+  background-color: lightblue;
 }
 p {
-    color: navy;
-    font-size: 20px;
+  color: navy;
+  font-size: 20px;
 }
 ```
 
 JavaScript 코드:
+
 ```javascript
 for (let i = 0; i < 10; i++) {
-    console.log('Hello, JavaScript!');
+  console.log("Hello, JavaScript!");
 }
 ```
 
 Java 코드:
+
 ```java
 public class HelloWorld {
     public static void main(String[] args) {
@@ -96,6 +101,7 @@ public class HelloWorld {
 ```
 
 C 코드:
+
 ```c
 #include <stdio.h>
 
@@ -106,6 +112,7 @@ int main() {
 ```
 
 C++ 코드:
+
 ```cpp
 #include <iostream>
 
@@ -116,6 +123,7 @@ int main() {
 ```
 
 C# 코드:
+
 ```csharp
 using System;
 
@@ -127,11 +135,13 @@ class HelloWorld {
 ```
 
 SQL 코드:
+
 ```sql
 FROM hello SELECT world;
 ```
 
 Go 코드:
+
 ```go
 package main
 
@@ -141,6 +151,10 @@ func main() {
     fmt.Println("Hello, Go!")
 }
 ```
+
+## 이미지 넣는 방법
+
+- ![이미지 설명](img/이미지파일일)
 
 이 코드들을 Markdown 파일에 붙여넣으면, 지원하는 Markdown 렌더러나 에디터에서 각 언어에 맞는 하이라이트를 적용하여 보여줄 것입니다. `highlight.js`나 다른 코드 하이라이트 라이브러리를 사용하는 웹 페이지에서도 유사한 결과를 얻을 수 있습니다.
 
